@@ -25,10 +25,13 @@ header nav {
 header nav ul {
     overflow: auto;
     list-style: none;
+    margin-left: 20px;
 }
 
 header nav ul li {
     float: left;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 header nav ul li a {
@@ -54,9 +57,12 @@ nav button {
     border: none;
     font-size: 20px;
     margin: 20px 40px;
-    display: none;
+    
 }
 
+nav button i {
+    padding-left: 10px; 
+}
 nav button:hover {
     cursor: pointer;
 }
@@ -73,5 +79,9 @@ section {
     display: none;
 }
 
+section p {
+    color: #fff;
+    text-align: justify;
+}
 
 
